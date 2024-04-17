@@ -188,6 +188,7 @@ def get_handler(user_input):
     return selects.get(user_input)
 
 def main():
+    print(help_str)
     while True:
         user_input = input('>> ')
         handler = get_handler(user_input)
